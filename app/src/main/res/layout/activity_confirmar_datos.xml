@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/confirmar_datos_top_margin"
+        android:layout_marginLeft="@dimen/margin_left_confirmar_datos"
+        android:textSize="@dimen/tiutlo_confirmar_dato"
+        android:text="@string/confirmar_datos"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/espacio_datos_confirmar">
+
+        <TextView
+            android:id="@+id/tw_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espacio_datos_confirmar"
+            android:layout_marginLeft="@dimen/margin_left_datos"/>
+
+        <TextView
+            android:id="@+id/tw_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espacio_datos_confirmar"
+            android:layout_marginLeft="@dimen/margin_left_datos"/>
+
+        <TextView
+            android:id="@+id/tw_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espacio_datos_confirmar"
+            android:layout_marginLeft="@dimen/margin_left_datos"/>
+
+        <TextView
+            android:id="@+id/tw_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espacio_datos_confirmar"
+            android:layout_marginLeft="@dimen/margin_left_datos"/>
+
+        <TextView
+            android:id="@+id/tw_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espacio_datos_confirmar"
+            android:layout_marginLeft="@dimen/margin_left_datos"
+            />
+
+    </LinearLayout>
+
+    <Button android:id="@+id/bt_editor_datos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/editar_datos"
+            android:layout_marginTop="@dimen/confirmar_datos_top_margin"
+            android:theme="@style/MiBotonRise"
+            android:layout_marginLeft="@dimen/button_margin_left"/>
+</LinearLayout>
